@@ -2704,5 +2704,68 @@ else:
 
 output:print 1 to 5 at same place     '''
 
+'''
+list1=[1,2,3,5,"70",55,55,4]
+for item in list1:
+    if type(item) == str:
+        print(item)
+
+'''
+
+'''for item in 123:
+    print(item)
+output:KeyError
+
+for item in "123":
+    print(item)
+output:1
+       2
+       3    
+'''
+
+'''table=4
+for i in range(1,11):
+    print(f"{table} X {i} = {table * i}")
+    '''
+'''
+for i in range(1,11):
+    if i==2:
+        pass
+        print(i)'''
+#print i wiil run freely
+'''
+list=[2,3,5,5]
+tuple=(3,4,5,6,5)
+dict={'name':'chandan','age':20}
+str='chandand'
+for i in list:
+    print(i,end=" ")
+for i in tuple:
+    print(i)
+for i in dict:
+    print(i)
+for i in str:
+    print(i)    '''        
+'''
+prodct_list=["banana", "milk","butter",'mango']
+data_to_search=input("enter the item: ")
+for i in prodct_list:
+    if i=='milk':
+        print("milk is avaliable")
+       
+else:
+    print("milk is not avaliable")    
+
+output:milk is avaliable
+milk is not avaliable
 
 
+prodct_list=["banana", "milk","butter",'mango']
+data_to_search=input("enter the item: ")
+for i in prodct_list:
+    if i=='milk':
+        print("milk is avaliable")
+       break
+else:
+    print("milk is not avaliable")   
+output:milk is avaliable    '''
